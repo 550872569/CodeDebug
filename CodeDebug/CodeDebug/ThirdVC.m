@@ -1,30 +1,26 @@
 //
-//  ViewController.m
+//  ThirdVC.m
 //  CodeDebug
 //
 //  Created by sogou-Yan on 17/5/23.
 //  Copyright © 2017年 sogou. All rights reserved.
 //
 
+#import "ThirdVC.h"
 #import "ViewController.h"
-#import "SecondVC.h"
 
-@interface ViewController ()
+@interface ThirdVC ()
 
 @end
 
-@implementation ViewController
+@implementation ThirdVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"ViewController";
-
-    self.view.backgroundColor = [UIColor whiteColor];
+    self.title = @"ThirdVC";
 }
-
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    [self.navigationController pushViewController:[[SecondVC alloc]init] animated:YES];
+    [self.navigationController popToViewController:[[ViewController alloc]init] animated:YES];
 }
-
 
 @end

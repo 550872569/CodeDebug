@@ -13,6 +13,9 @@
 		8D819C3A1ED3E2C10070B4E1 /* CodeDebugTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D819C391ED3E2C10070B4E1 /* CodeDebugTests.m */; };
 		8D819C451ED3E2C10070B4E1 /* CodeDebugUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D819C441ED3E2C10070B4E1 /* CodeDebugUITests.m */; };
 		8D819C531ED3E2F70070B4E1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D819C521ED3E2F70070B4E1 /* Images.xcassets */; };
+		8D819C571ED3E5430070B4E1 /* SecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D819C561ED3E5430070B4E1 /* SecondVC.m */; };
+		8D819C5A1ED3E5AC0070B4E1 /* ThirdVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D819C591ED3E5AC0070B4E1 /* ThirdVC.m */; };
+		8D819C5D1ED3E6370070B4E1 /* FourVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D819C5C1ED3E6370070B4E1 /* FourVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,12 @@
 		8D819C461ED3E2C10070B4E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D819C521ED3E2F70070B4E1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8D819C541ED3E3100070B4E1 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		8D819C551ED3E5430070B4E1 /* SecondVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondVC.h; sourceTree = "<group>"; };
+		8D819C561ED3E5430070B4E1 /* SecondVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondVC.m; sourceTree = "<group>"; };
+		8D819C581ED3E5AC0070B4E1 /* ThirdVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdVC.h; sourceTree = "<group>"; };
+		8D819C591ED3E5AC0070B4E1 /* ThirdVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdVC.m; sourceTree = "<group>"; };
+		8D819C5B1ED3E6370070B4E1 /* FourVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourVC.h; sourceTree = "<group>"; };
+		8D819C5C1ED3E6370070B4E1 /* FourVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +111,12 @@
 				8D819C231ED3E2C10070B4E1 /* AppDelegate.m */,
 				8D819C251ED3E2C10070B4E1 /* ViewController.h */,
 				8D819C261ED3E2C10070B4E1 /* ViewController.m */,
+				8D819C551ED3E5430070B4E1 /* SecondVC.h */,
+				8D819C561ED3E5430070B4E1 /* SecondVC.m */,
+				8D819C581ED3E5AC0070B4E1 /* ThirdVC.h */,
+				8D819C591ED3E5AC0070B4E1 /* ThirdVC.m */,
+				8D819C5B1ED3E6370070B4E1 /* FourVC.h */,
+				8D819C5C1ED3E6370070B4E1 /* FourVC.m */,
 				8D819C301ED3E2C10070B4E1 /* Info.plist */,
 				8D819C521ED3E2F70070B4E1 /* Images.xcassets */,
 				8D819C1F1ED3E2C10070B4E1 /* Supporting Files */,
@@ -268,8 +283,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D819C5D1ED3E6370070B4E1 /* FourVC.m in Sources */,
 				8D819C271ED3E2C10070B4E1 /* ViewController.m in Sources */,
 				8D819C241ED3E2C10070B4E1 /* AppDelegate.m in Sources */,
+				8D819C5A1ED3E5AC0070B4E1 /* ThirdVC.m in Sources */,
+				8D819C571ED3E5430070B4E1 /* SecondVC.m in Sources */,
 				8D819C211ED3E2C10070B4E1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -493,6 +511,7 @@
 				8D819C4B1ED3E2C10070B4E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D819C4C1ED3E2C10070B4E1 /* Build configuration list for PBXNativeTarget "CodeDebugTests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +520,7 @@
 				8D819C4E1ED3E2C10070B4E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D819C4F1ED3E2C10070B4E1 /* Build configuration list for PBXNativeTarget "CodeDebugUITests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +529,7 @@
 				8D819C511ED3E2C10070B4E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
